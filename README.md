@@ -58,3 +58,7 @@ The complete architecture is shown as follows,
 3. We also compared different approaches on 8x SR.
 
 ![Visual Comparison](/figure/8xsr.PNG)
+
+
+# Reference
+You may also check our newly work on Real image super-resolution using VAE
