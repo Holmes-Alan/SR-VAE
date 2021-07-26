@@ -1,0 +1,22 @@
+# The train/test net protocol buffer definition
+net: "examples/NTIRE/VAE/VAE_SR_s7.prototxt"
+iter_size: 1
+test_iter: 1 #8 for step1 and 8 for step2
+test_interval: 5000
+# The base learning rate, momentum and the weight decay of the network.
+type: "Adam"
+base_lr: 0.0001
+momentum: 0.9
+weight_decay: 0.0001
+# The learning rate policy
+lr_policy: "fixed"
+# Display every 100 iterations
+display: 500
+# The maximum number of iterations
+max_iter: 1000000
+# snapshot intermediate results
+snapshot: 5000
+snapshot_prefix: "examples/NTIRE/Model/Train"
+snapshot_after_train: true
+# solver mode: CPU or GPU
+solver_mode: GPU
