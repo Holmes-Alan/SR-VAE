@@ -28,6 +28,11 @@ Please cite our work if you use our code or dataset as,
     NVIDIA GPU + CUDA
     Jupyter Notebook
 
+# Complete Architecture
+The complete architecture is shown as follows,
+
+![network](/figures/network.PNG)
+
 # Reimplementation
 1. Download pre-trained model from the following link
 ---------------------------------------
@@ -40,3 +45,16 @@ Please cite our work if you use our code or dataset as,
 3. Testing on 8x SR
 ----------------------------------------------------------------------------
     run SR_VAE_8x.ipynb
+
+# Experimental results
+1. We compared our proposed approach with state-of-the-arts face image SR approaches on objective quality by using PSNR, SSIM and PI scores as follow
+
+![Table Comparison](/figures/table.PNG)
+
+2. We also compared different approaches on 4x SR.
+
+![Similarity Comparison](/figures/4xsr.PNG)
+
+3. We also compared different approaches on 8x SR.
+
+![Visual Comparison](/figures/8xsr.PNG)
