@@ -61,4 +61,6 @@ The complete architecture is shown as follows,
 
 
 # Reference
-You may also check our newly work on Real image super-resolution using VAE
+You may check our newly work on [Real image super-resolution using VAE](https://github.com/Holmes-Alan/dSRVAE)
+You may also check our work on [Reference based face SR using VAE](https://github.com/Holmes-Alan/RefSR)
+You may also check our work on [Reference based General image SR using VAE](https://github.com/Holmes-Alan/RefVAE)
