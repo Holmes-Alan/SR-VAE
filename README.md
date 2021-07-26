@@ -31,7 +31,7 @@ Please cite our work if you use our code or dataset as,
 # Complete Architecture
 The complete architecture is shown as follows,
 
-![network](/figures/network.PNG)
+![network](/figure/network.PNG)
 
 # Reimplementation
 1. Download pre-trained model from the following link
@@ -49,12 +49,12 @@ The complete architecture is shown as follows,
 # Experimental results
 1. We compared our proposed approach with state-of-the-arts face image SR approaches on objective quality by using PSNR, SSIM and PI scores as follow
 
-![Table Comparison](/figures/table.PNG)
+![Table Comparison](/figure/table.PNG)
 
 2. We also compared different approaches on 4x SR.
 
-![Similarity Comparison](/figures/4xsr.PNG)
+![Similarity Comparison](/figure/4xsr.PNG)
 
 3. We also compared different approaches on 8x SR.
 
-![Visual Comparison](/figures/8xsr.PNG)
+![Visual Comparison](/figure/8xsr.PNG)
